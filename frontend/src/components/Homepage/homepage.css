@@ -1,0 +1,106 @@
+/* body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  /* Sidebar styles */
+  
+  
+  .sidebar {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 250px;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  .Link {
+    text-decoration: none;
+    color: #fafafa;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 40px;
+    cursor: pointer;
+  }
+  
+  /* Main content styles */
+  .hm {
+    flex: 1;
+    padding: 20px;
+    margin-left: 280px; /* Adjust margin to accommodate the sidebar width */
+  }
+  
+  /* Additional styles */
+  .logoutbtn {
+    outline: none;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 8px;
+    margin-top: 400px;
+    width: 20px;
+  }
+
+  .home-container {
+    
+   
+    padding: 20px;
+    
+    
+    
+    
+    margin: 0 auto; /* Center the container */
+    padding: 20px; 
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    /* Add overflow-y to make the container vertically scrollable */
+    overflow-y: auto;
+    /* Define a maximum height for the scrollable container */
+    max-height: 600px; 
+  }
+  
+  .posts-container {
+    margin-top: 20px;
+    display: flex; /* Use flexbox to align posts */
+    flex-direction: column; 
+  }
+  
+  .post {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ccc; /* Add borders for separation */
+    padding: 10px; /* Add padding around each post */
+    margin-bottom: 20px; 
+    
+  }
+  
+  input,
+  textarea,
+  button {
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    cursor: pointer;
+  }
